@@ -7,7 +7,7 @@ Imagine the scenario that the bank using this "solution" is released a new banki
 
 In our team we attached a webcam to RPI2 and wrote an app taking pictures of the person in front of the camera continously and sending the picture to Emotions API in MS Cognitive Services (former name ProjectOxford.ai) and took the emotion data in JSON format.
 
-Technically, we wrote a Windows UWP running on Raspberry PI2 making the Emotion API call. This app generates a JSON file and we took this data into Azure Event Hubs and passed this stream into Azure Stream Analytics job which is storing the data into a Azure blob Storage as well as feeding the output into a PowerBI sink. We designed a live dashboard in Power BI showing the incoming data as well.
+Technically, we wrote a Windows UWP app running on Raspberry PI2 making the Emotion API call. This app generates a JSON file and we took this data into Azure Event Hubs and passed this stream into Azure Stream Analytics job which is storing the data into a Azure blob Storage as well as feeding the output into a PowerBI sink. We designed a live dashboard in Power BI showing the incoming data as well.
 
 In addition to this we prepared an experiment in Azure Machine Learning to predict when will the right time to offer the product(s) of the bank to the customers.
 
@@ -17,5 +17,3 @@ Technologies used ;
  3) Azure Events Hub, Azure Stream Analytics
  4) Power BI 
  5) Azure Machine Learning
-
-P.S. : I picked "Machine Learning" as the technical area in the options above in the form because I was the guy responsible for implementing the Azure Machine Learning to the solution

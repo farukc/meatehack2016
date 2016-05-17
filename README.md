@@ -1,6 +1,6 @@
 ##MEA TE Hackathon 2016<br>
 
-In this hackathon an [IoT set](http://www.robotistan.com/raspberry-pi-2-microsoft-iot-seti) containing a Raspberry PI 2, sensors and standard Electronic components is supplied to teams. <br>
+In this hackathon an [IoT set](http://www.robotistan.com/raspberry-pi-2-microsoft-iot-seti) containing a Raspberry PI 2, sensors and standard electronic components is supplied each team. <br>
 In our project we worked on a scenario which our device and a camera is located right next to the teller who is talking to a customer in a bank's branch. UWP app running on RPI2 takes  the picture of the customer from time-to-time and logs from all the tellers in all the branches of the bank. Please note that we already know the customer as because teller already opened up their bank's standard banking app when they first met with the customer. We log all the emotional data from all the customers when a teller offered a new product to the customer. It could be a new product or a interest rate for a new credit loan ustomer asked from the teller. 
 Imagine the scenario that the bank using this "solution" is released a new banking product (a new credit card, a new mortgage package etc.) and tellers started offering this new product to the customers in their meetings in the bank branch. Bank management (could be marketing dept) would see the outcome of the offer by looking at the customer's emotions which is centralized.
 

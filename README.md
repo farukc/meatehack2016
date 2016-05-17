@@ -11,9 +11,9 @@ Technically, we wrote a Windows UWP app running on Raspberry PI2 making the Emot
 
 In addition to this we prepared an experiment in Azure Machine Learning to predict when will the right time to offer the product(s) of the bank to the customers.
 
-Technologies used ;
- 1) Window 10 UWP app running on Windows 10 IoT Core on a Raspberry PI2
- 2) Cognitive Services (Emotions API specifically)
- 3) Azure Events Hub, Azure Stream Analytics
- 4) Power BI 
- 5) Azure Machine Learning
+Technologies used : 
+ 1) Window 10 UWP app running on Windows 10 IoT Core on a Raspberry PI2<br>
+ 2) Cognitive Services (Emotions API specifically)<br>
+ 3) Azure Events Hub, Azure Stream Analytics<br>
+ 4) Power BI <br>
+ 5) Azure Machine Learning<br>
